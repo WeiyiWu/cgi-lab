@@ -15,11 +15,13 @@ Question 4: How does the POSTed data come to the CGI script?
 
 Question 5: What is the HTTP header syntax to set a cookie from the server?
     Set-Cookie: <cookie-name>=<cookie-value>
+    (reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
 Question 6: What is the HTTP header syntax the browser uses to send the cookie back?
     Cookie: <cookie-list>
     Cookie: name=value
     Cookie: name=value; name2=value2; name3=value3
+    (reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cookie)
 
 Question 7: In your own words, what are cookies used for?
     Cookies allows servers to store client's data. 
