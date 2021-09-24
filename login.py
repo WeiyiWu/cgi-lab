@@ -12,7 +12,7 @@ if get_username == username and get_password == password:
     print("Set-Cookie: Password = %s" % get_password)
     print("Cookie: UserID = %s; Password = %s" % (get_username, get_password))
     print("Content-type: text/html\r\n\r\n")
-    print("<b>%20s</b>: %s<br>" % ('HTTP_COOKIE', os.environ['HTTP_COOKIE']))
+    # print("<b>%20s</b>: %s<br>" % ('HTTP_COOKIE', os.environ['HTTP_COOKIE']))
     print(secret_page(get_username, get_password))
 
 else:
